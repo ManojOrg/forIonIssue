@@ -1,0 +1,16 @@
+﻿@model List<Book>
+@{
+    ViewData["Title"] = "EON Assignment - Manoj - (manojkke@gmail.com)";
+}
+
+
+
+<div class="row">
+
+    @foreach (var b in Model)
+    {
+        <p> @b.Author</p>
+    }
+
+
+</div>
